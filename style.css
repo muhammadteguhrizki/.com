@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+/*navbar*/
+.navbar {
+  background-color: #313541;
+}
+.navbar-brand {
+  font-family: 'Poppins';
+  font-size: 24px;
+  font-weight: 600;
+}
+.text-logo {
+  color: #306cf8;
+}
+.navbar-nav {
+  color: #fff;
+  font-family: 'Poppins';
+  text-align: center;
+}
+/*jumbotron*/
+#jumbotron {
+  background-color: #313541;
+}
+.content {
+  padding-top: 6.6rem;
+  color: #fff;
+}
+.content .display-6 span {
+  color: #306cf8;
+}
+
+.btn {
+  font-weight: 600;
+  border: 1px solid #fff;
+  border-radius: 20px;
+  background: linear-gradient(to right, #ff00d4, #00ddff);
+  color: #fff;
+  transition: 0.6s;
+}
+.btn:hover {
+  color: #fff;
+  transform: scale(0.7);
+}
+/* medsos */
+.medsos {
+  padding-top: 100px;
+}
+.medsos .col-3 a {
+  color: #fff;
+}
+/* portofolio */
+#portofolio {
+  background-color: #212832;
+  color: #fff;
+}
+.line {
+  background-color: #76afde;
+  height: 5px;
+  width: 20%;
+  margin: auto;
+  border-radius: 2px;
+}
+
+.card-body {
+  background-color: #313541;
+}
+.card p {
+  color: #fff;
+  font-weight: 700;
+}
+.button-view {
+  float: right;
+  margin-top: -40px;
+  text-decoration: none;
+  font-weight: 800;
+  font-family: 'Poppins';
+}
+/* contact */
+#contact {
+  background-color: #313541;
+}
+.contact .container-fluid {
+  padding-top: 6rem;
+  padding-bottom: 4rem;
+}
+.contact .container-fluid .col-md-6 p {
+  font-size: 18px;
+  font-family: 'Poppins';
+  font-weight: 500;
+}
+/* Mobile Desktop*/
+@media (max-width: 992px) {
+  .content {
+    padding-top: 5.5rem;
+  }
+}
+@media (max-width: 768px) {
+  .content {
+    padding-top: 0;
+  }
+}
+@media (max-width: 576px) {
+  .contact .container-fluid .col-md-6 p {
+    font-size: 12px;
+  }
+}
+/*footer*/
+#footer {
+  background-color: #212832;
+  color: #fff;
+  text-align: center;
+  font-family: 'Poppins';
+}
+html {
+  scroll-padding-top: 4rem;
+}
